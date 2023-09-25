@@ -5179,7 +5179,7 @@ textarea.form-control-lg {
   --bs-toast-border-radius: 0.375rem;
   --bs-toast-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   --bs-toast-header-color: #6c757d;
-  --bs-toast-imagem capa: rgba(255, 255, 255, 0.85);
+  --bs-toast-imagemcapa: rgba(255, 255, 255, 0.85);
   --bs-toast-header-border-color: rgba(0, 0, 0, 0.05);
   width: var(--bs-toast-max-width);
   max-width: 100%;
@@ -5642,7 +5642,7 @@ textarea.form-control-lg {
   --bs-popover-header-padding-y: 0.5rem;
   --bs-popover-header-font-size: 1rem;
   --bs-popover-header-color: ;
-  --bs-popover-imagem capa: #f0f0f0;
+  --bs-popover-imagem-capa: #f0f0f0;
   --bs-popover-body-padding-x: 1rem;
   --bs-popover-body-padding-y: 1rem;
   --bs-popover-body-color: #212529;
@@ -5743,7 +5743,7 @@ textarea.form-control-lg {
   width: var(--bs-popover-arrow-width);
   margin-left: calc(-0.5 * var(--bs-popover-arrow-width));
   content: "";
-  border-bottom: var(--bs-popover-border-width) solid var(--bs-popover-imagem capa);
+  border-bottom: var(--bs-popover-border-width) solid var(--bs-popover-imagemcapa);
 }
 
 /* rtl:begin:ignore */
